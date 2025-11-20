@@ -23,4 +23,4 @@ ln -s model-9A.xyz model.xyz
 ../../ GPUMD-master/src/gpumd>nep.log &
 
 # Literature link
-https://doi.org/10.1016/j.cemconres.2025.108091
+https://www.sciencedirect.com/science/article/pii/S0008884625003102
