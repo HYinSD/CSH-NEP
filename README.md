@@ -11,6 +11,7 @@ cd 01-NEP-tob-C-S-H ln -s train-440.xyz train.xyz
 
 2.MD simulation.
 This example runs with GPUMD. For the GPUMD source code and compilation instructions, please refer to the official installation guide: https://gpumd.org/installation.html. This NEP potential can also be used in LAMMPS. To use it within LAMMPS, simply compile the code with NEP-related packages enabled.
+
 cd 02-Examples-MD/Tobermorite-NPT
 ln -s model-9A.xyz model.xyz
 ../../ GPUMD-master/src/gpumd>nep.log &
