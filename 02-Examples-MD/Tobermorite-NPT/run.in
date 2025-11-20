@@ -1,0 +1,15 @@
+potential    nep.txt
+velocity     300
+             
+# relax-300 K  
+time_step    1
+ensemble     npt_mttk temp 300 300 aniso 0 0 tperiod 100.0 pperiod 2000.0
+dump_exyz    500 0 0
+dump_thermo  100
+run          50000 
+
+time_step    1
+ensemble     npt_mttk temp 300 300 aniso 0 0 tperiod 100.0 pperiod 2000.0
+dump_exyz    500 0 0
+dump_thermo  250
+run          500000 
