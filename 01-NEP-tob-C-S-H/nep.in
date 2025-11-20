@@ -1,0 +1,15 @@
+version      4
+type         4 Si O Ca H
+cutoff       4.5 4.5
+n_max        10 8
+basis_size   10 8
+l_max        4 2
+neuron       50
+lambda_2     0.05
+lambda_e     1
+lambda_f     1
+lambda_v     0.2
+zbl          2
+batch        500
+population   50
+generation   1000000
