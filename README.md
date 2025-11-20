@@ -3,25 +3,6 @@
 # Introduction
 This work develops a Neuroevolution Potential (NEP) suitable for tobermorite and C-S-H systems. The versatility of the NEP is demonstrated by predicting the structural and mechanical properties of tobermorite, and it is applied for the first time to MD simulations of amorphous configurations. This repository provides the dataset, training scripts, and MD examples for the NEP model.
 
-# Table of Contents
-01- NEP-tob-C-S-H
-    nep.in
-    nep.txt
-    test-306.xyz
-    train-440.xyz
-02- Examples-MD
-    Tobermorite-NPT
-        model-9A.xyz
-        model-11A.xyz
-        model-14A.xyz
-        run.in
-        nep.txt
-    C-S-H-NPT
-        model.xyz
-        run.in
-        nep.txt
-03- README.md
-
 # Usage
 1.NEP Training and Testing
 Run the following command:
